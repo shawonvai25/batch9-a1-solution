@@ -41,9 +41,40 @@
 
 /*second section styles starts here */
 .second-section-container {
-  width: 500px;
-  height: 399px;
+  width: 802px;
+  height: 806px;
   margin: 0 auto;
-  border: 2px solid red;
   margin-top: 90px;
+}
+.image-container {
+  width: 802px;
+  height: 500px;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+}
+.second-section-content h1 {
+  font-size: 88px;
+  font-weight: 700;
+  color: #ff0000;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.second-section-content p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  text-align: center;
+}
+.second-section-content h3 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.second-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
