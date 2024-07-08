@@ -78,3 +78,116 @@
   justify-content: center;
   align-items: center;
 }
+/* midnight section style starts here */
+.midnight-party-container {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../images/Vectorrr.png");
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.left-side-content {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.right-side-content {
+  height: 600px;
+  width: 50%;
+}
+.left-side-content h1 {
+  font-size: 64px;
+  font-weight: 900;
+  text-align: left;
+  color: #ffffff;
+}
+.left-side-content p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffffcc;
+  line-height: 30px;
+  margin-left: 49px;
+}
+#midnight-btn {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-right: 415px;
+  margin-top: 20px;
+}
+.right-side-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* holiday styles */
+.holiday-section-container {
+  width: 1320px;
+  height: 986px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+.holiday-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+  text-align: center;
+}
+.holiday-text-container h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #070211;
+}
+.holiday-text-container h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  color: #070211;
+}
+#holiday {
+  color: #ff0000;
+}
+.holiday-text-container p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgba(7, 2, 17, 0.6);
+}
+.solid-color {
+  width: 1320px;
+  height: 229px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 76.8%;
+}
+.giftbox img {
+  position: absolute;
+  z-index: 1;
+  width: 674px;
+  height: 577px;
+  top: 40%;
+}
+.discount {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+}
