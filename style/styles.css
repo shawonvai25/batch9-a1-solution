@@ -195,7 +195,6 @@
 .portfolio-section {
   width: 1320px;
   height: 1163px;
-  border: 2px solid red;
   margin: 0 auto;
   margin-top: 120px;
 }
@@ -236,4 +235,46 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+}
+.footer-container {
+  width: 1320px;
+  height: 609px;
+  background-color: #070211;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.footer-first-section {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.contact {
+  color: white;
+  display: flex;
+}
+.hr {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.social-icons {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+.footer-end-text {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
 }
